@@ -1,2 +1,2 @@
 image:
-  file: docker/php:7.2.1-apache
+  file: php:7.2.1-apache
