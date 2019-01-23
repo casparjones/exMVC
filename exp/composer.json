@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "dwoo/dwoo": "dev-master"
+    }
+}

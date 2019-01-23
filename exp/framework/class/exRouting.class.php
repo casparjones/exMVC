@@ -3,7 +3,7 @@
 class exRouting {
 
   const defaultAction = 'Index';
-  const defaultModule = 'mp3Player';
+  const defaultModule = 'dir';
 
   private $rd;
   private $module;

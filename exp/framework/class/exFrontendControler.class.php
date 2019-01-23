@@ -10,7 +10,7 @@ class exFrontendControler extends exBase {
   
   public function init(exContext $context, $module = false, $action = false) {
     parent::init($context);    
-  
+
     $this->module     = $module;
     $this->actionName = ucfirst($action); 
     $className = 'exAction';

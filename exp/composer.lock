@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "981966c5ccbf7589d1724580ef168784",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "dwoo/dwoo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dwoo-project/dwoo.git",
+                "reference": "e82821854a2a4a56417015b897382e7995463118"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dwoo-project/dwoo/zipball/e82821854a2a4a56417015b897382e7995463118",
+                "reference": "e82821854a2a4a56417015b897382e7995463118",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3|^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.27"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dwoo\\": "lib/Dwoo/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "David Sanchez",
+                    "email": "david38sanchez@gmail.com"
+                }
+            ],
+            "description": "Dwoo is a PHP5/PHP7 template engine which is (almost) fully compatible with Smarty templates and plugins, but is written from scratch for PHP5, and adds many features.",
+            "abandoned": "twig/twig",
+            "time": "2018-07-25T13:24:51+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dwoo/dwoo": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

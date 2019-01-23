@@ -53,11 +53,7 @@ class Folder extends ArrayIterator {
     }
     return false;
   }
-  
-  public function append(File $file) {
-    parent::append($file);
-  }
-  
+ 
   public function getFiles() {
   
   }

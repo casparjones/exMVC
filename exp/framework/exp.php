@@ -19,10 +19,16 @@ if($urlData['dirname'] == '/') {
  define('exINDEX', exHOST . $urlParam['path']);
 }
 
+function exAutoload($class)
+{
+	if (substr($class, 0, 2) === 'ex') {
+		include exAPP . DIRECTORY_SEPARATOR . "class" . DIRECTORY_SEPARATOR . $class . '.class.php';
+	}
+}
 
-require_once(exAPP . '/class/exAutoloader.class.php');
-exAutoloader::register();
+spl_autoload_register('exAutoload');
 
+require_once(exAPP . '/../vendor/autoload.php');
 include(exAPP . '/init.php');
 
 ?>

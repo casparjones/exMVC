@@ -24,7 +24,7 @@
     public function createHeaderField($attributes = false) {
       $th = new HtmlTh();
       if($attributes) $th->appendAttributes($attributes); 
-      $this->append(&$th);
+      $this->append($th);
       $this->updateListener();    
       return $th;
     }
@@ -32,7 +32,7 @@
     public function createField($attributes = false) {
       $td = new HtmlTd();
       if($attributes) $th->appendAttributes($attributes); 
-      $this->append(&$td);
+      $this->append($td);
       $this->updateListener();    
       return $td;
     }

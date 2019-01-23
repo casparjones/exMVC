@@ -54,6 +54,8 @@ final class exAutoloader
     if(is_file($libFile)) {
       require_once $libFile;
     } else {
+      // dwoo errors for wrong autoloading
+      if($name == "PluginTopLevelBlock") return;
       throw new exException('Lib Include failed for "' . $libFile . '"" in Module: "' . self::$modName .'"');
     }
   }
